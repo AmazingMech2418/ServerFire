@@ -1,18 +1,18 @@
-# AdminServer
+# ServerFire
 
-Welcome to AdminServer, a powerful and lightweight server library!
+Welcome to ServerFire, a powerful and lightweight server library!
 
 ## The Current Stage
 
-AdminServer is not yet entirely complete. There are still many things that need to be done, including adding middleware for things such as database management and admin controls to help you better keep track of your websites and servers. However, AdminServer is still currently a fully-functioning server library with zero dependencies!
+ServerFire is not yet entirely complete. There are still many things that need to be done, including adding middleware for things such as database management and admin controls to help you better keep track of your websites and servers. However, ServerFire is still currently a fully-functioning server library with zero dependencies!
 
 ## Basic Setup
 
 
 The following code enables you to create a very basic setup for a server and the server in fact does nothing, but this is the shell of your server code.
 ```js
-// Import required components from AdminServer
-const {Server, bodyparser, Router, route, generateMiddleware, tools} = require('adminserver');
+// Import required components from ServerFire
+const {Server, bodyparser, Router, route, generateMiddleware, tools} = require('serverfire');
 
 // Create router middleware
 const router = new Router();
@@ -81,4 +81,4 @@ More information will be provided in the official documentation, including how t
 
 
 
-Thank you for choosing AdminServer to start up your website!
+Thank you for choosing ServerFire to start up your website!

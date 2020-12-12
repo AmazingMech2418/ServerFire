@@ -1,5 +1,5 @@
 {
-  "name": "AdminServer",
+  "name": "serverfire",
   "version": "1.0.0",
   "description": "AdminServer is a new lightweight server library to help you create your website, light and powerful!",
   "main": "index.js",
