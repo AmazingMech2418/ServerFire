@@ -1,7 +1,7 @@
 const {normalize} = require('path');
 
 
-const getPathArray = path => path.split('/').filter(n=>n.length>0);
+const getPathArray = path => path.split("?")[0].split("#")[0].split('/').filter(n=>n.length>0);
 
 const compare = (path1, path2) => getPathArray(path1).join('/') == getPathArray(path2).join('/');
 
