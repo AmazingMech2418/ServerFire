@@ -15,14 +15,14 @@ function generateRoute(router) {
       if(request.method == path.method) {
         if(compare(request.req.url, path.path)) {
           found = true;
-          if(asynchronous) {
+          if(path.asynchronous) {
             asynchronous = true;
           }
           if(path.fn(request, response) == "ERR")
             found = false;
         } else if(compareWithParams(path.path, request.req.url, request)) {
           found = true;
-          if(asynchronous) {
+          if(path.asynchronous) {
             asynchronous = true;
           }
           if(path.fn(request, response) == "ERR")
