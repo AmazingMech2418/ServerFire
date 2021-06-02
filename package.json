@@ -1,6 +1,6 @@
 {
   "name": "serverfire",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ServerFire is a new lightweight server library to help you create your website, light and powerful!",
   "main": "index.js",
   "scripts": {
