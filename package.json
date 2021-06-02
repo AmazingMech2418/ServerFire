@@ -1,7 +1,7 @@
 {
   "name": "serverfire",
-  "version": "1.0.0",
-  "description": "AdminServer is a new lightweight server library to help you create your website, light and powerful!",
+  "version": "1.0.1",
+  "description": "ServerFire is a new lightweight server library to help you create your website, light and powerful!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
