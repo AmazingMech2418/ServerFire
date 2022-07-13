@@ -1,12 +1,17 @@
 {
   "name": "serverfire",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "ServerFire is a new lightweight server library to help you create your website, light and powerful!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["server", "web", "express-alternative", "dependency-free"],
+  "keywords": [
+    "server",
+    "web",
+    "express-alternative",
+    "dependency-free"
+  ],
   "author": "AmazingMech2418",
   "license": "MIT"
 }

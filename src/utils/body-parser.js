@@ -1,6 +1,6 @@
 let qs = {};//require('qs');
 //let qs = require('qs');
-qs.parse = require('../../../lib/qs.js');//require('qs');
+qs.parse = require('../../lib/qs.js');//require('qs');
 
 function parse(data,log=false) {
   try {

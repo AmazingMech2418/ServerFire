@@ -9,19 +9,18 @@ class Router {
     this.paths.push({
       method: method,
       path: path,
-      fn: fn,
-      asynchronous: asynchronous
+      fn: fn
     });
   }
-  get(path, fn, asynchronous=false) {
-    this._addPath('GET', path, fn, asynchronous);
+  get(path, fn) {
+    this._addPath('GET', path, fn);
   }
-  post(path, fn, asynchronous=false) {
-    this._addPath('POST', path, fn, asynchronous);
+  post(path, fn) {
+    this._addPath('POST', path, fn);
   }
-  all(path, fn, asynchronous=false) {
-    this.get(path, fn, asynchronous);
-    this.post(path, fn, asynchronous);
+  all(path, fn) {
+    this.get(path, fn);
+    this.post(path, fn);
   }
   static(path, file) {
     if(normalize(path)[0] != '/' || normalize(file)[0] != '/') {
